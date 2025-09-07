@@ -49,29 +49,22 @@ LeetCode-75/
 • **Usage Guidelines**
 
 Review notes.md for patterns & intuition before coding
-
 Follow consistent folder + file naming convention for each new problem
-
 Use this repo as a daily practice tracker and interview prep resource
 
 
 • **Contribution & Open Source**
 
 Public repository → all commits reflect your daily coding activity
-
 Encourage forking & collaboration for learning best practices
-
 This repo doubles as a portfolio for FAANG/MIT-level interviews
 
 
 📚 **References**
 
 LeetCode Problems Set (1768 → … → latest)
-
 Cracking the Coding Interview (6th Edition)
-
 MIT 6.006 – Introduction to Algorithms
-
 Competitive Programming & Pattern-based problem-solving guides
 
 
