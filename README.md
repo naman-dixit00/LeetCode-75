@@ -4,7 +4,7 @@
 
 📌 **Repository Overview**
 _____________________________________________________________________
-| **Attribute**     | **Details**                                    |                                      
+| **Attribute** | **Details**                                        |                                      
 |---------------|----------------------------------------------------|
 | Total Problems| 75                                                 |
 | Languages     | C++                                                | 
@@ -46,8 +46,6 @@ LeetCode-75/
     └── solution.cpp
 
 
-
-
 • **Usage Guidelines**
 
 Review notes.md for patterns & intuition before coding
@@ -57,8 +55,6 @@ Follow consistent folder + file naming convention for each new problem
 Use this repo as a daily practice tracker and interview prep resource
 
 
-
-
 • **Contribution & Open Source**
 
 Public repository → all commits reflect your daily coding activity
@@ -66,8 +62,6 @@ Public repository → all commits reflect your daily coding activity
 Encourage forking & collaboration for learning best practices
 
 This repo doubles as a portfolio for FAANG/MIT-level interviews
-
-
 
 
 📚 **References**
