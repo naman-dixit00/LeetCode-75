@@ -10,7 +10,7 @@ _____________________________________________________________________
 | Languages     | C++                                                | 
 | Approach      | Pattern-oriented                                   |
 | Goal          | problem-solving portfolio with daily contributions |
-|_______________|____________________________________________________|
+
 
 
 • **Problem Classification & Workflow**
