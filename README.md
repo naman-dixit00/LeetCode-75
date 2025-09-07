@@ -30,10 +30,10 @@ _____________________________________________________________________
 
 📂 **Folder Structure**
 
-
+```
 LeetCode-75/
 │
-├── README.md                # Repository overview
+├── README.md                         # Repository overview
 ├── Day01_MergeStringsAlternately/
 │   ├── notes.md
 │   └── solution.cpp
@@ -45,7 +45,7 @@ LeetCode-75/
     ├── notes.md
     └── solution.cpp
 
-
+```
 • **Usage Guidelines**
 
 Review notes.md for patterns & intuition before coding
