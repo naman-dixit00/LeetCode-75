@@ -8,6 +8,7 @@
 Pattern → Two Pointers /Alternate Traversal .
 
 1. **Problem Statement -**
+
 We are given two strings, `word1` and `word2`. Starting with the first character of `word1`, merge the two strings by alternately taking one character from each.   
 If one string finishes earlier, append the remaining part of the longer string at the end. Return the merged string.
 
