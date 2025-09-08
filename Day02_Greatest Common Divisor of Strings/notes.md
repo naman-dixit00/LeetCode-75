@@ -81,6 +81,6 @@ Step 1 → str1+str2 != str2+str1
 * Discuss why GCD of lengths ensures correct divisor.
 
 10. **References -**
-*  **LeetCode 1071 – Greatest Common Divisor of Strings
-*  **Euclidean Algorithm (Number Theory, MIT 6.042J – Mathematics for Computer          Science)
-*   **Cracking the Coding Interview – String Manipulation & Math Patterns
+*  **LeetCode 1071 –** Greatest Common Divisor of Strings
+*  **Euclidean Algorithm (Number Theory, MIT 6.042J –** Mathematics for Computer Science)
+*   **Cracking the Coding Interview –** String Manipulation & Math Patterns
