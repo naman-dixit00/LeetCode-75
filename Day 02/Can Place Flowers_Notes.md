@@ -41,7 +41,6 @@ We must return `true` if we can plant `n` new flowers in the flowerbed without v
 
 
 **Approaches & Complexity Analysis -**
-
 **• Brute Force :**
 * Try all combinations of placing/not placing flowers in empty spots.
 * Validate each configuration by adjacency rule.
