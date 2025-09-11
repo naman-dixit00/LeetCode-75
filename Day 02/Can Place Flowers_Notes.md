@@ -87,7 +87,7 @@ Input: `flowerbed = [1,0,0,0,1], n = 2`
 * Greedy works because planting at the first available spot never blocks future valid spots.
 * Pitfall: Forgetting to handle edge indices (first and last positions).
 * Pitfall: Modifying flowerbed in-place is fine, but sometimes interviewers ask for immutability → then simulate instead.
-* Follow-up discussions:
+* Follow-up discussions :
 
   * What if `n` is extremely large (close to array size)?
   * Can we solve this without modifying the input array?
