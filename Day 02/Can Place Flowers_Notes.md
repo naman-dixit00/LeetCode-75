@@ -89,7 +89,7 @@ Input: `flowerbed = [1,0,0,0,1], n = 2`
 * Pitfall: Modifying flowerbed in-place is fine, but sometimes interviewers ask for immutability → then simulate instead.
 * Follow-up discussions :
 
-  * What if `n` is extremely large (close to array size)?
+  * What if `n`is extremely large (close to array size)?
   * Can we solve this without modifying the input array?
   * How does solution change if flowers can be placed with k-distance (generalized version)?
 
