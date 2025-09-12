@@ -9,7 +9,7 @@ public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
         // If no flowers need to be planted, always return true
         if (n == 0) {
-            return true;
+            return true ;
         }
 
         // Traverse the flowerbed to find valid spots for planting
