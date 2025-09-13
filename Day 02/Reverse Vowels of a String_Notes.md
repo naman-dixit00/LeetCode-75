@@ -1,5 +1,6 @@
 # Day 5 – Reverse Vowels of a String
-🔗 **Problem Link** : [ LeetCode 345 – Reverse Vowels of a String ]( https://leetcode.com/problems/reverse-vowels-of-a-string/ )
+🔗 **Problem Link** : [ LeetCode 345 – Reverse Vowels of a String ]
+( https://leetcode.com/problems/reverse-vowels-of-a-string/ )
 
 **• Problem Classification :**
 *  Category → String Manipulation / Two Pointers
@@ -34,6 +35,7 @@
 * This avoids extra storage and ensures in-place vowel reversal.
 
 **• Approaches & Complexity Analysis -**
+
 **• Brute Force :**
 * Collect all vowels from string into a list.
 * Replace vowels in the string from the reversed list.
