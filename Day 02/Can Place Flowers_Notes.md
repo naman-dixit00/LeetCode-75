@@ -1,5 +1,5 @@
 
-# Day 4 – Can Place Flowers
+# Can Place Flowers
 
 🔗 Problem Link : [LeetCode 605 – Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
 

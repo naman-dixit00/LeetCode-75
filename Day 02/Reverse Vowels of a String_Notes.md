@@ -1,4 +1,4 @@
-# Day 5 – Reverse Vowels of a String
+# Reverse Vowels of a String
 🔗 **Problem Link** : [ LeetCode 345 – Reverse Vowels of a String ]
 ( https://leetcode.com/problems/reverse-vowels-of-a-string/ )
 

@@ -1,4 +1,4 @@
-# Day 5 – Reverse Words in a String
+# Reverse Words in a String
 🔗 **Problem Link** : LeetCode 151 – Reverse Words in a String
 (https://leetcode.com/problems/reverse-words-in-a-string/)
 
