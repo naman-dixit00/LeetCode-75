@@ -67,7 +67,3 @@ Cracking the Coding Interview (6th Edition)
 MIT 6.006 – Introduction to Algorithms  
 Competitive Programming & Pattern-based problem-solving guides  
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Rahul%20Sharma%20)](https://git.io/streak-stats)
-
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=Rahul%20Sharma%20" alt="GitHub Streak" /></a>
-
