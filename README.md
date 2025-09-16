@@ -67,23 +67,6 @@ Cracking the Coding Interview (6th Edition)
 MIT 6.006 – Introduction to Algorithms  
 Competitive Programming & Pattern-based problem-solving guides  
 
-# 🚀 DSA Tracker
 
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img">
-  <defs>
-    <linearGradient id="blueGrad" x1="0" x2="1">
-      <stop offset="0" stop-color="#0ea5ff"/>
-      <stop offset="1" stop-color="#0b79d0"/>
-    </linearGradient>
-  </defs>
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Rahul%20Sharma%20)](https://git.io/streak-stats)
 
-  <!-- Title -->
-  <text x="20" y="40" font-size="22" font-weight="bold" fill="#041629">DSA Mastery — Tracker</text>
-  <text x="20" y="65" font-size="12" fill="#667085">Smooth futuristic progress tracker</text>
-
-  <!-- Circle Progress -->
-  <circle cx="120" cy="160" r="70" fill="none" stroke="#e6f0ff" stroke-width="10"/>
-  <circle cx="120" cy="160" r="70" fill="none" stroke="url(#blueGrad)" stroke-width="10"
-          stroke-dasharray="440" stroke-dashoffset="140"/>
-  <text x="120" y="160" text-anchor="middle" dy="8" font-size="18" font-weight="bold">68%</text>
-</svg>
