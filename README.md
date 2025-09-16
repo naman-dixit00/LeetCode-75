@@ -68,8 +68,7 @@ MIT 6.006 – Introduction to Algorithms
 Competitive Programming & Pattern-based problem-solving guides  
 
 
-```html
-<!-- BEGIN: Animated Badge Tracker with Live Shields.io (paste this into README.md) -->
+html
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="160" viewBox="0 0 820 160" role="img" aria-label="DSA Badge Tracker">
   <style>
     .card { fill:#0f172a; rx:12; filter: drop-shadow(0 6px 18px rgba(2,6,23,0.5)); }
@@ -111,5 +110,4 @@ Competitive Programming & Pattern-based problem-solving guides
     <text class="tiny" x="540" y="20">68%</text>
   </g>
 </svg>
-<!-- END: Animated Badge Tracker with Live Shields.io -->
-```
+
