@@ -97,8 +97,8 @@ Competitive Programming & Pattern-based problem-solving guides
   <text x="24" y="50" class="subtitle">Track your daily contributions & consistency</text>
 
   <!-- Username (clickable) -->
-  <a href="https://github.com/YOUR_USERNAME" target="_blank">
-    <text x="24" y="70" class="stat">@YOUR_USERNAME</text>
+  <a href="https://github.com/naman-dixit00" target="_blank">
+    <text x="24" y="70" class="stat">naman-dixit00</text>
   </a>
 
   <!-- Daily streak blocks -->
