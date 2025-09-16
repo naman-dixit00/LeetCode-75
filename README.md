@@ -67,4 +67,4 @@ Cracking the Coding Interview (6th Edition)
 MIT 6.006 – Introduction to Algorithms  
 Competitive Programming & Pattern-based problem-solving guides  
 
-![Loading Animation](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGoybmlscGljbGtqajNnZWJlZTE4YTJia2l3ZDBoN3loNGQ2dDlzMiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/0ZWhOzFwg9rpWnoG77/giphy.gif)
+![Loading Animation](https://github-readme-streak-stats.herokuapp.com/demo/preview.php?user=)
