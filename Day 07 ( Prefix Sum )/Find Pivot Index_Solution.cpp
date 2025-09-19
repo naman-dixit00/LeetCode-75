@@ -11,8 +11,8 @@ public:
 
         // Compute the total sum of the array
         int totalSum = 0;
-        for (int& num : nums) {
-            totalSum += num;
+        for (int i = 0; i < n; i++) {
+            totalSum += nums[i];
         }
 
         int leftSum = 0;
