@@ -7,44 +7,36 @@ using namespace std;
 class Solution {
 public:
     bool closeStrings(string word1, string word2) {
+        // If lengths differ, they can never be close
+        if (word1.size() != word2.size()) return false;
+
         // Step 1: Frequency arrays for both words
-        array<int, 26> charCount1 = {}; 
-        array<int, 26> charCount2 = {}; 
+        int charCount1[26] = {0};
+        int charCount2[26] = {0};
 
-        // Count characters in word1
-        for (char c : word1) {
-            ++charCount1[c - 'a'];
+        for (int i = 0; i < word1.size(); i++) {
+            charCount1[word1[i] - 'a']++;
+        }
+        for (int i = 0; i < word2.size(); i++) {
+            charCount2[word2[i] - 'a']++;
         }
 
-        // Count characters in word2
-        for (char c : word2) {
-            ++charCount2[c - 'a'];
-        }
-
-        // Step 2: Check if both words use the exact same set of characters
-        for (int i = 0; i < 26; ++i) {
-            bool charPresentWord1 = charCount1[i] > 0;
-            bool charPresentWord2 = charCount2[i] > 0;
-
-            // If a character exists in one string but not the other → Not close
-            if ((charPresentWord1 && !charPresentWord2) || 
-                (!charPresentWord1 && charPresentWord2)) {
+        // Step 2: Both words must use exactly the same set of characters
+        for (int i = 0; i < 26; i++) {
+            if ((charCount1[i] == 0 && charCount2[i] > 0) ||
+                (charCount1[i] > 0 && charCount2[i] == 0)) {
                 return false;
             }
         }
 
-        // Step 3: Sort frequency arrays (order doesn’t matter, only counts matter)
-        sort(charCount1.begin(), charCount1.end());
-        sort(charCount2.begin(), charCount2.end());
+        // Step 3: Sort the frequency arrays
+        vector<int> v1(charCount1, charCount1 + 26);
+        vector<int> v2(charCount2, charCount2 + 26);
+
+        sort(v1.begin(), v1.end());
+        sort(v2.begin(), v2.end());
 
         // Step 4: Compare sorted frequencies
-        for (int i = 0; i < 26; ++i) {
-            if (charCount1[i] != charCount2[i]) {
-                return false;
-            }
-        }
-
-        // If both character sets and frequency distributions match → Strings are close
-        return true;
+        return v1 == v2;
     }
 };
