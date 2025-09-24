@@ -1,4 +1,4 @@
-Day X – Maximum Level Sum of a Binary Tree
+# Maximum Level Sum of a Binary Tree
 
 🔗 Problem Link : LeetCode 1161 – Maximum Level Sum of a Binary Tree
 
