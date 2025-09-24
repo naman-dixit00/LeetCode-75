@@ -14,6 +14,7 @@ class Solution {
         maxSoFar = max(maxSoFar, node->val);
         return good + dfs(node->left, maxSoFar) + dfs(node->right, maxSoFar);
     }
+    
 public:
     int goodNodes(TreeNode* root) {
         return dfs(root, -100000); // smaller than min constraint

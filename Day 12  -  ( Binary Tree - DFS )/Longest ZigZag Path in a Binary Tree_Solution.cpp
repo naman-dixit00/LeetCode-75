@@ -20,6 +20,7 @@ class Solution {
             dfs(node->left, false, 1);
         }
     }
+    
 public:
     int longestZigZag(TreeNode* root) {
         dfs(root, true, 0);
