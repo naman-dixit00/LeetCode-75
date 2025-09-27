@@ -1,4 +1,4 @@
-Min Cost Climbing Stairs
+# Min Cost Climbing Stairs
 
 🔗 Problem Link : LeetCode 746 – Min Cost Climbing Stairs
 
