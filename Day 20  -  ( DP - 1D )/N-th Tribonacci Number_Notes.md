@@ -8,6 +8,7 @@ Pattern → Linear Recurrence Relation.
 1. Problem Statement –
 
 The Tribonacci sequence is a generalization of the Fibonacci sequence:
+'''
 
 𝑇
 0
@@ -76,6 +77,8 @@ n−3
 3
 n≥3
 
+'''
+'''
 Given an integer 
 𝑛
 n, return 
@@ -83,21 +86,21 @@ n, return
 𝑛
 T
 n
-	​
+'''	​
 
 . The problem asks for an efficient computation of the nth term without exceeding integer limits.
 
 2. Constraints & Edge Cases –
 
 Constraints:
-
+'''
 0
 ≤
 𝑛
 ≤
 37
 0≤n≤37
-
+'''
 Result fits in a 32-bit signed integer.
 
 Edge Cases:
@@ -113,6 +116,7 @@ Using iterative DP or memoization is optimal.
 Naive idea: Use simple recursion. Compute T(n) = T(n-1)+T(n-2)+T(n-3).
 
 Key observation: Recursion recomputes overlapping subproblems, leading to 
+'''
 𝑂
 (
 3
@@ -121,7 +125,7 @@ Key observation: Recursion recomputes overlapping subproblems, leading to
 O(3
 n
 ) time.
-
+'''
 Optimized idea: Use dynamic programming: store last 3 computed values and iterate → O(n) time and O(1) space.
 
 4. Approaches & Complexity Analysis –
