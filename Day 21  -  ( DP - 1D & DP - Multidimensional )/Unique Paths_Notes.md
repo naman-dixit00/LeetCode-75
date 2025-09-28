@@ -1,4 +1,4 @@
-Unique Paths
+# Unique Paths
 
 🔗 Problem Link : LeetCode 62 – Unique Paths
 
