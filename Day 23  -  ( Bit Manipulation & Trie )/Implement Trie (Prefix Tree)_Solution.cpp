@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 struct TrieNode {
@@ -7,7 +8,7 @@ struct TrieNode {
     TrieNode() {
         isEnd = false;
         for(int i = 0; i < 26; i++)
-            children[i] = nullptr;
+            children[i] = NULL; // use NULL instead of nullptr
     }
 };
 
@@ -21,9 +22,10 @@ public:
     
     void insert(string word) {
         TrieNode* node = root;
-        for(char c : word) {
+        for(int i = 0; i < word.length(); i++) { // classic for loop
+            char c = word[i];
             int idx = c - 'a';
-            if(!node->children[idx])
+            if(node->children[idx] == NULL)
                 node->children[idx] = new TrieNode();
             node = node->children[idx];
         }
@@ -32,9 +34,10 @@ public:
     
     bool search(string word) {
         TrieNode* node = root;
-        for(char c : word) {
+        for(int i = 0; i < word.length(); i++) {
+            char c = word[i];
             int idx = c - 'a';
-            if(!node->children[idx]) return false;
+            if(node->children[idx] == NULL) return false;
             node = node->children[idx];
         }
         return node->isEnd;
@@ -42,11 +45,23 @@ public:
     
     bool startsWith(string prefix) {
         TrieNode* node = root;
-        for(char c : prefix) {
+        for(int i = 0; i < prefix.length(); i++) {
+            char c = prefix[i];
             int idx = c - 'a';
-            if(!node->children[idx]) return false;
+            if(node->children[idx] == NULL) return false;
             node = node->children[idx];
         }
         return true;
     }
 };
+
+int main() {
+    Trie trie;
+    trie.insert("apple");
+    cout << trie.search("apple") << endl;   // 1
+    cout << trie.search("app") << endl;     // 0
+    cout << trie.startsWith("app") << endl; // 1
+    trie.insert("app");
+    cout << trie.search("app") << endl;     // 1
+    return 0;
+}
