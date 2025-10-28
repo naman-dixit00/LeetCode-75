@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbv-Xj-jTL-0zMspTZo-8tcZ4JOvd0dmOU9A&s" alt="Meri Image" width="600"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbv-Xj-jTL-0zMspTZo-8tcZ4JOvd0dmOU9A&s" alt="Meri Image" width="900"/>
 </p>
 
 *Image source: [LeetCode](https://leetcode.com) via Medium*
